@@ -524,7 +524,7 @@ class Downloader(PostDownload):
 
     def __init__(
         self,
-        yt: YoutubeDLBonus,
+        yt: YoutubeDLMod,
         working_directory: Path | str = os.getcwd(),
         clear_temps: bool = True,
         filename_prefix: str = "",
