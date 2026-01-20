@@ -20,11 +20,11 @@ print(search_results)
 ## Download Video
 
 ```python
-from yt_dlp_mod import YoutubeDLBonus, Downloader
+from yt_dlp_mod import YoutubeDLMod, Downloader
 
 video_url = "https://youtu.be/S3wsCRJVUyg"
 
-yt_bonus = YoutubeDLBonus()
+yt_bonus = YoutubeDLMod()
 
 extracted_info = yt_bonus.extract_info_and_form_model(url=video_url)
 
@@ -38,11 +38,11 @@ downloader.ydl_run(
 ## Download Audio
 
 ```python
-from yt_dlp_mod import YoutubeDLBonus, Downloader
+from yt_dlp_mod import YoutubeDLMod, Downloader
 
 video_url = "https://youtu.be/S3wsCRJVUyg"
 
-yt_bonus = YoutubeDLBonus()
+yt_bonus = YoutubeDLMod()
 
 extracted_info = yt_bonus.extract_info_and_form_model(url=video_url)
 
